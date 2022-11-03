@@ -9,8 +9,8 @@ const FeedbackList = (props) => {
       <table className="table">
         <thead>
           <tr>
-            <th>Body_Text</th>
-            <th>Reply_Text</th>
+            <th>Feedback / Question</th>
+            <th>Manager's Response</th>
           </tr>
         </thead>
         <tbody>

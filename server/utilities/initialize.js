@@ -88,20 +88,20 @@ function populateCollections() {
 
   Feedback.counterReset("FEEDBACK_ID", () => {
     Feedback.create({
-      MANAGER_ID: 100,
+      MANAGER_ID: 5,
       BODY_TEXT: "We need more donuts in the break room",
       REPLY_TEXT: "",
     })
       .then(() =>
         Feedback.create({
-          MANAGER_ID: 100,
+          MANAGER_ID: 5,
           BODY_TEXT: "I think we should use Cobalt instead of java",
           REPLY_TEXT: "",
         })
       )
       .then(() =>
         Feedback.create({
-          MANAGER_ID: 100,
+          MANAGER_ID: 5,
           BODY_TEXT: "Maybe we could try using notepad instead of vscode?",
           REPLY_TEXT: "",
         })

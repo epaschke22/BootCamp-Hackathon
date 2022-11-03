@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
 const Login = (props) => {
-  const [username, setUsername] = useState();
-  const [password, setPassword] = useState();
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
   // const [email, setEmail] = useState();
 
   const handleLoginClick = (username, password) => {

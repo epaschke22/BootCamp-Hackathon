@@ -23,7 +23,7 @@ function HomePage(props) {
         isManager={props.isManager}
         currentManagerId={props.currentManagerId}
       />
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
     </div>
   );
 }
@@ -35,7 +35,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <h1>Events App</h1>
+        <h1>Feedback and Questions</h1>
         {!isLoggedIn ? (
           <Login
             setIsLoggedIn={setIsLoggedIn}
